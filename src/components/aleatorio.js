@@ -1,10 +1,11 @@
 import React from 'react'
 import {Text} from 'react-native'
+import Estilo from './estilo'
 
-export default (props) => {
-    var a = Math.floor(Math.random() * (props.max - props.min) + props.min)
+export default ({min,max}) => {
+    var a = Math.floor(Math.random() * (max - min) + min)
     return (
-        <Text>O valor minimo é {props.min} valor maximo é {props.max} e o valor aleatório entre os 2 é {a}</Text>
+        <Text style={Estilo.txtG}>O valor minimo é {min} valor maximo é {max} e o valor aleatório entre os 2 é {a}</Text>
     )
 
 }
