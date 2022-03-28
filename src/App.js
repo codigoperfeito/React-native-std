@@ -7,12 +7,17 @@ import {SafeAreaView, Text, StyleSheet} from 'react-native';
 // import MinMax from './components/MinMax';
 // import Aleatorio from './components/aleatorio';
 // import Titulo from './components/Titulo';
-import Botao from './components/botao'
+// import Botao from './components/botao'
+// import Contador from './components/contador'
+import Pai from './components/direta/pai'
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <Botao/>
+        <Pai/>
         {/*
+        <Contador inicial={100} prox={13}/>
+        <Contador/>
+        <Botao/>
         <Titulo principal='Cadastro Produto' secundario='Tela de cadastro'/> 
         <Aleatorio min={10} max={15}/>
         <MinMax min={40} max={60}/>

@@ -1,0 +1,21 @@
+{
+	"Print to console": {
+		"scope": "javascript",
+		"prefix": "reactBasico",
+		"body": [
+			"import React from 'react'",
+			"import {Text} from 'react-native'",
+			"import Estilo from './components/Estilo'",
+			"		",
+			"export default () => {",
+			"		"
+			"    return("
+			"		<Text style={Estilo.txtG}>"
+			"			$1"
+			"		</Text>"
+			"    )"
+			"}"
+		],
+		"description": "Log output to console"
+	}
+}
