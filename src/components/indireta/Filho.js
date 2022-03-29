@@ -8,8 +8,7 @@ export default props => {
         return (
             parseInt(Math.random() * fator) + min
         )
-    }
-        
+    }        
     return(
         <Button />
     )
