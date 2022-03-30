@@ -12,13 +12,22 @@ import {SafeAreaView, StyleSheet, View} from 'react-native';
 // import PaiIndireto from './components/indireta/Pai'
 // import ContadorV2 from './components/contador/contadorV2';
 // import Diferenciar from './components/diferenciar';
-import ParImpar from './components/parImpar';
-
+// import ParImpar from './components/parImpar';
+import Familia from './components/relacao/Familia';
+import Membro from './components/relacao/Membros'
 
 export default () => (
     <SafeAreaView style={style.App}>
-        <ParImpar num={2}/>
+        <Familia>
+            <Membro nome='Elisa' sobrenome='Sousa'/>
+            <Membro nome='Dayane' sobrenome='Leticia'/>
+        </Familia>
+        <Familia>
+            <Membro nome='Joana' sobrenome='Canhoto'/>
+            <Membro nome='Zenilda' sobrenome='Fradinho'/>
+        </Familia>
         {/*
+        <ParImpar num={2}/>
         <Diferenciar/>
         <ContadorV2 />
         <PaiIndireto/>
